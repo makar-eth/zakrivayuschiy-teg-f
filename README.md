@@ -1,1 +1,1 @@
-https://github.com/makar-eth/zakrivayuschiy-teg-f
+https://makar-eth.github.io/zakrivayuschiy-teg-f/
