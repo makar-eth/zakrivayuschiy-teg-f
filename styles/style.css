@@ -43,7 +43,7 @@
   line-height: 0.9;
   background-color: var(--background-color, #fff);
   transition: box-shadow 0.3s ease;
-  cursor: pointer];
+  cursor: pointer;
 }
 
 .button::before {
@@ -123,35 +123,35 @@
   block-size: 100%;
 }
 
-.sprint-zero {
+.filter-high-saturate {
   filter: saturate(120%);
 }
 
-.sprint-first-start {
+.filter-low-saturate {
   filter: saturate(30%);
 }
 
-.sprint-first-end {
+.filter-brightness-contrast {
   filter: brightness(200%) contrast(100%);
 }
 
-.sprint-second-start {
+.filter-saturate-grayscale-brightness {
   filter: saturate(85%) grayscale(0.8) brightness(100%);
 }
 
-.sprint-second-end {
+.filter-invert {
   filter: invert(80%);
 }
 
-.sprint-third-start {
+.filter-sepia {
   filter: sepia(90%);
 }
 
-.sprint-third-end {
+.filter-blur {
   filter: blur(5px);
 }
 
-.sprint-fourth {
+.filter-blur-hue {
   filter: blur(1.5px) hue-rotate(90deg);
 }
 
@@ -344,6 +344,10 @@
 
 .dialog .button {
   block-size: 38px;
+}
+
+.dialog__button-text {
+  text-transform: uppercase;
 }
 
 @media (width <= 375px) {
